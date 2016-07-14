@@ -1,0 +1,12 @@
+C:\GithubSource\TaskManager\TaskManager.Client\bin\TaskManager.Client.dll.config
+C:\GithubSource\TaskManager\TaskManager.Client\bin\TaskManager.Client.dll
+C:\GithubSource\TaskManager\TaskManager.Client\bin\TaskManager.Client.pdb
+C:\GithubSource\TaskManager\TaskManager.Client\obj\Debug\TaskManager.Client.csprojResolveAssemblyReference.cache
+C:\GithubSource\TaskManager\TaskManager.Client\obj\Debug\TaskManager.Client.dll
+C:\GithubSource\TaskManager\TaskManager.Client\obj\Debug\TaskManager.Client.pdb
+C:\Users\shashank\Documents\samples\Src\TaskManager\TaskManager.Client\bin\TaskManager.Client.dll.config
+C:\Users\shashank\Documents\samples\Src\TaskManager\TaskManager.Client\bin\TaskManager.Client.dll
+C:\Users\shashank\Documents\samples\Src\TaskManager\TaskManager.Client\bin\TaskManager.Client.pdb
+C:\Users\shashank\Documents\samples\Src\TaskManager\TaskManager.Client\obj\Debug\TaskManager.Client.csprojResolveAssemblyReference.cache
+C:\Users\shashank\Documents\samples\Src\TaskManager\TaskManager.Client\obj\Debug\TaskManager.Client.dll
+C:\Users\shashank\Documents\samples\Src\TaskManager\TaskManager.Client\obj\Debug\TaskManager.Client.pdb

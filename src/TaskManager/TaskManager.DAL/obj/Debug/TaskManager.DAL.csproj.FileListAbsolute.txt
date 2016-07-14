@@ -1,0 +1,14 @@
+C:\Users\shashank\Documents\samples\Src\TaskManager\TaskManager.DAL\bin\Debug\TaskManager.DAL.dll
+C:\Users\shashank\Documents\samples\Src\TaskManager\TaskManager.DAL\bin\Debug\TaskManager.DAL.pdb
+C:\Users\shashank\Documents\samples\Src\TaskManager\TaskManager.DAL\obj\Debug\TaskManager.DAL.csprojResolveAssemblyReference.cache
+C:\Users\shashank\Documents\samples\Src\TaskManager\TaskManager.DAL\obj\Debug\TaskManager.DAL.dll
+C:\Users\shashank\Documents\samples\Src\TaskManager\TaskManager.DAL\obj\Debug\TaskManager.DAL.pdb
+C:\Users\shashank\Documents\GitHub\ActionToLearn\src\TaskManager\TaskManager.DAL\bin\Debug\TaskManager.DAL.dll
+C:\Users\shashank\Documents\GitHub\ActionToLearn\src\TaskManager\TaskManager.DAL\bin\Debug\TaskManager.DAL.pdb
+C:\Users\shashank\Documents\GitHub\ActionToLearn\src\TaskManager\TaskManager.DAL\obj\Debug\TaskManager.DAL.csprojResolveAssemblyReference.cache
+C:\Users\shashank\Documents\GitHub\ActionToLearn\src\TaskManager\TaskManager.DAL\obj\Debug\TaskManager.DAL.dll
+C:\Users\shashank\Documents\GitHub\ActionToLearn\src\TaskManager\TaskManager.DAL\obj\Debug\TaskManager.DAL.pdb
+C:\Users\shashank\Documents\GitHub\ActionToLearn\src\TaskManager\TaskManager.DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shashank\Documents\GitHub\ActionToLearn\src\TaskManager\TaskManager.DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\shashank\Documents\GitHub\ActionToLearn\src\TaskManager\Output\TaskManager.DAL.dll
+C:\Users\shashank\Documents\GitHub\ActionToLearn\src\TaskManager\Output\TaskManager.DAL.pdb

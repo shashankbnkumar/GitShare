@@ -1,0 +1,39 @@
+<form name="taskListForm"
+      novalidate
+      ng-controller="TaskListCtrl as vm">
+    <span>
+        <button class="btn-primary" ng-click="vm.add()"
+                ng-if="vm.authorized">
+            Add Task
+        </button>
+    </span>
+    <br />
+    <br />
+    <div class="panel panel-primary">
+
+
+        <div class="panel-body">
+            <table class="table ">
+
+                <thead style="background-color:lightblue">
+                    <tr>
+                        <td>Task</td>
+                        <td>Code</td>
+                        <td>Available</td>
+                        <td>Price</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="task in vm.tasks">
+                        <td><a href="#edit/{{ task.taskId}}">{{ task.taskName}}</a></td>
+                        <td>{{ task.taskCode }}</td>
+                        <td>{{ task.releaseDate | date }}</td>
+                        <td>{{ task.price | currency }}</td>
+
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,109 @@
+<form class="form-horizontal"
+      name="taskForm"
+      novalidate
+      ng-controller="TaskEditCtrl as vm">
+    <fieldset ng-if="vm.authorized">
+        <legend>Basic Task Information</legend>
+        <div class="form-group"
+             ng-class="{'has-error':taskForm.inputTaskName.$invalid &&
+                                    taskForm.inputTaskName.$dirty}">
+            <label class="col-md-2 control-label"
+                   for="inputTaskName">Title</label>
+
+            <div class="col-md-4">
+                <input class="form-control"
+                       id="inputTaskName"
+                       name="inputTaskName"
+                       type="text"
+                       placeholder="Title (required)"
+                       ng-model="vm.task.title"
+                       required
+                       ng-minlength="4"
+                       ng-maxlength="12" />
+            </div>
+            <span class="help-block has-error">
+                <span ng-show="taskForm.inputTaskName.$error.required">
+                    Task title is required.
+                </span>
+            </span>
+        </div>
+
+        <div class="form-group"
+             ng-class="{'has-error':taskForm.inputTaskCode.$invalid &&
+                                    taskForm.inputTaskCode.$dirty}">
+            <label class="col-md-2 control-label" for="inputTaskCode">Details</label>
+
+            <div class="col-md-4">
+                <input class="form-control"
+                       id="inputTaskCode"
+                       name="inputTaskCode"
+                       type="text"
+                       placeholder="Details (required)"
+                       ng-model="vm.task.details"
+                       required>
+            </div>
+            <span class="help-block has-error"
+                  ng-show="taskForm.inputTaskCode.$invalid ">
+                Task details is required
+            </span>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-2 control-label"
+                   for="vm.task.dueDate">Due Date</label>
+
+            <div class="col-md-4">
+                <input ui-date="dateOptions" id="dueDate" name="dueDate" ng-model="vm.task.dueDate" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-2 control-label"
+                   for="vm.task.completedDate">Completed Date</label>
+
+            <div class="col-md-4">
+                <input ui-date="dateOptions" id="completedDate" name="completedDate" ng-model="vm.task.completedDate" class="form-control" />
+            </div>  
+        </div>
+
+        <div class="form-group">
+           <span >
+                   <button class="btn btn-warning"
+                        style="width:70px"
+                        ng-click="vm.back()">
+                    Back
+                </button>
+            </span>
+
+            <div class="col-md-4 col-md-offset-2">
+
+                <span>
+                    <button class="btn btn-primary"
+                            style="width:80px;margin-right:10px"
+                            ng-click="vm.submit()"
+                            ng-disabled="taskForm.$invalid">
+                        Save
+                    </button>
+                </span>
+                <span>
+                    <button class="btn btn-default"
+                            style="width:70px"
+                            ng-click="vm.cancel(taskForm)">
+                        Cancel
+                    </button>
+                </span>
+
+            </div>
+        </div>
+
+        <div class="form-group"
+             ng-show="vm.message">
+            <div class="col-md-6">
+                <pre style="font: inherit">{{vm.message }}</pre>
+            </div>
+        </div>
+
+    </fieldset>
+
+</form>
+
